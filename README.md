@@ -1,10 +1,10 @@
-#Dockerfile for building android-build-trusty image.
+# Dockerfile for building android-build-trusty image.
 
 Forked from here: https://android.googlesource.com/platform/build/+/master/tools/docker
 
 With updated Python to match repo requirements.
 
-#Build
+# Build
 
 The Dockerfile in this directory sets up an Ubuntu Trusty image ready to build a variety of Android branches (>= Lollipop). It‘s particulary useful to build older branches that required 14.04 if you’ve upgraded to something newer.
 
